@@ -1,0 +1,6 @@
+[console_scripts]
+car_veiw_publisher_node = pkg_py.car_veiw_publisher_node:main
+image_publisher_node = pkg_py.image_publisher_node:main
+imu_gps_publisher_node = pkg_py.imu_gps_publisher_node:main
+point_cloud_publisher_node = pkg_py.point_cloud_publisher_node:main
+

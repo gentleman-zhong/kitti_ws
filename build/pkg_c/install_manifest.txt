@@ -1,0 +1,15 @@
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/ament_index/resource_index/package_run_dependencies/pkg_c
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/ament_index/resource_index/parent_prefix_path/pkg_c
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/environment/ament_prefix_path.sh
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/environment/ament_prefix_path.dsv
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/environment/path.sh
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/environment/path.dsv
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/local_setup.bash
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/local_setup.sh
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/local_setup.zsh
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/local_setup.dsv
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/package.dsv
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/ament_index/resource_index/packages/pkg_c
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/cmake/pkg_cConfig.cmake
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/cmake/pkg_cConfig-version.cmake
+/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/package.xml

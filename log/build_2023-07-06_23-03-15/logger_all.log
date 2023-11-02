@@ -1,0 +1,139 @@
+[0.315s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.315s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdc96fcc310>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdc96fcc310>>)
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.347s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zhangzhong/ROS2/kitti_ws'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_c) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_c) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_c) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_c) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_c) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_c' with type 'ros.ament_cmake' and name 'pkg_c'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_py' with type 'ros.ament_python' and name 'pkg_py'
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_c' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_c' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_c' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_c' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_c' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_c' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_c' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_c' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_c' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_c' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zhangzhong/ROS2/kitti_ws/build/pkg_c', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c', 'merge_install': False, 'path': '/home/zhangzhong/ROS2/kitti_ws/src/pkg_c', 'symlink_install': False, 'test_result_base': None}
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zhangzhong/ROS2/kitti_ws/build/pkg_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py', 'merge_install': False, 'path': '/home/zhangzhong/ROS2/kitti_ws/src/pkg_py', 'symlink_install': False, 'test_result_base': None}
+[0.392s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.394s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'pkg_c'
+[0.394s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zhangzhong/ROS2/kitti_ws/src/pkg_c' with build type 'ament_cmake'
+[0.394s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zhangzhong/ROS2/kitti_ws/src/pkg_c'
+[0.395s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhangzhong/ROS2/kitti_ws/build/pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangzhong/ROS2/kitti_ws/install/pkg_py:/home/zhangzhong/ROS2/test_ws/install/learning_urdf:/home/zhangzhong/ROS2/test_ws/install/learning_topic:/home/zhangzhong/ROS2/test_ws/install/learning_tf:/home/zhangzhong/ROS2/test_ws/install/learning_service:/home/zhangzhong/ROS2/test_ws/install/learning_qos:/home/zhangzhong/ROS2/test_ws/install/learning_pkg_python:/home/zhangzhong/ROS2/test_ws/install/learning_parameter:/home/zhangzhong/ROS2/test_ws/install/learning_node:/home/zhangzhong/ROS2/test_ws/install/learning_launch:/home/zhangzhong/ROS2/test_ws/install/learning_action:/home/zhangzhong/ROS2/test_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/zhangzhong/ROS2/kitti_ws/build/pkg_c -- -j4 -l4
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhangzhong/ROS2/kitti_ws/build/pkg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangzhong/ROS2/kitti_ws/install/pkg_py:/home/zhangzhong/ROS2/test_ws/install/learning_urdf:/home/zhangzhong/ROS2/test_ws/install/learning_topic:/home/zhangzhong/ROS2/test_ws/install/learning_tf:/home/zhangzhong/ROS2/test_ws/install/learning_service:/home/zhangzhong/ROS2/test_ws/install/learning_qos:/home/zhangzhong/ROS2/test_ws/install/learning_pkg_python:/home/zhangzhong/ROS2/test_ws/install/learning_parameter:/home/zhangzhong/ROS2/test_ws/install/learning_node:/home/zhangzhong/ROS2/test_ws/install/learning_launch:/home/zhangzhong/ROS2/test_ws/install/learning_action:/home/zhangzhong/ROS2/test_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/zhangzhong/ROS2/kitti_ws/build/pkg_c -- -j4 -l4
+[0.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhangzhong/ROS2/kitti_ws/build/pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangzhong/ROS2/kitti_ws/install/pkg_py:/home/zhangzhong/ROS2/test_ws/install/learning_urdf:/home/zhangzhong/ROS2/test_ws/install/learning_topic:/home/zhangzhong/ROS2/test_ws/install/learning_tf:/home/zhangzhong/ROS2/test_ws/install/learning_service:/home/zhangzhong/ROS2/test_ws/install/learning_qos:/home/zhangzhong/ROS2/test_ws/install/learning_pkg_python:/home/zhangzhong/ROS2/test_ws/install/learning_parameter:/home/zhangzhong/ROS2/test_ws/install/learning_node:/home/zhangzhong/ROS2/test_ws/install/learning_launch:/home/zhangzhong/ROS2/test_ws/install/learning_action:/home/zhangzhong/ROS2/test_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/zhangzhong/ROS2/kitti_ws/build/pkg_c
+[0.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_c)
+[0.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhangzhong/ROS2/kitti_ws/build/pkg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhangzhong/ROS2/kitti_ws/install/pkg_py:/home/zhangzhong/ROS2/test_ws/install/learning_urdf:/home/zhangzhong/ROS2/test_ws/install/learning_topic:/home/zhangzhong/ROS2/test_ws/install/learning_tf:/home/zhangzhong/ROS2/test_ws/install/learning_service:/home/zhangzhong/ROS2/test_ws/install/learning_qos:/home/zhangzhong/ROS2/test_ws/install/learning_pkg_python:/home/zhangzhong/ROS2/test_ws/install/learning_parameter:/home/zhangzhong/ROS2/test_ws/install/learning_node:/home/zhangzhong/ROS2/test_ws/install/learning_launch:/home/zhangzhong/ROS2/test_ws/install/learning_action:/home/zhangzhong/ROS2/test_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/zhangzhong/ROS2/kitti_ws/build/pkg_c
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c' for CMake module files
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c' for CMake config files
+[0.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_c', 'cmake_prefix_path')
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/hook/cmake_prefix_path.dsv'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/hook/cmake_prefix_path.sh'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/bin'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/lib/pkgconfig/pkg_c.pc'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/lib/python3.10/site-packages'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/bin'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/package.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/package.sh'
+[0.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/colcon-core/packages/pkg_c)
+[0.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_c)
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c' for CMake module files
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c' for CMake config files
+[0.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_c', 'cmake_prefix_path')
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/hook/cmake_prefix_path.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/hook/cmake_prefix_path.sh'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/bin'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/lib/pkgconfig/pkg_c.pc'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/lib/python3.10/site-packages'
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/bin'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/package.dsv'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/pkg_c/package.sh'
+[0.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhangzhong/ROS2/kitti_ws/install/pkg_c/share/colcon-core/packages/pkg_c)
+[0.540s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'pkg_c' finished with '0'
+[0.540s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'pkg_py'
+[0.540s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zhangzhong/ROS2/kitti_ws/src/pkg_py' with build type 'ament_python'
+[0.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_py', 'ament_prefix_path')
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/share/pkg_py/hook/ament_prefix_path.dsv'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/share/pkg_py/hook/ament_prefix_path.sh'
+[0.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.727s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zhangzhong/ROS2/kitti_ws/src/pkg_py'
+[0.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhangzhong/ROS2/kitti_ws/src/pkg_py': PYTHONPATH=/home/zhangzhong/ROS2/kitti_ws/build/pkg_py/prefix_override:/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/zhangzhong/ROS2/kitti_ws/build/pkg_py/build install --record /home/zhangzhong/ROS2/kitti_ws/build/pkg_py/install.log --single-version-externally-managed
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py' for CMake module files
+[1.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhangzhong/ROS2/kitti_ws/src/pkg_py' returned '0': PYTHONPATH=/home/zhangzhong/ROS2/kitti_ws/build/pkg_py/prefix_override:/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/zhangzhong/ROS2/kitti_ws/build/pkg_py/build install --record /home/zhangzhong/ROS2/kitti_ws/build/pkg_py/install.log --single-version-externally-managed
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py' for CMake config files
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/lib'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/bin'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/lib/pkgconfig/pkg_py.pc'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/lib/python3.10/site-packages'
+[1.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_py', 'pythonpath')
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/share/pkg_py/hook/pythonpath.dsv'
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/share/pkg_py/hook/pythonpath.sh'
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/bin'
+[1.214s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_py)
+[1.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/share/pkg_py/package.dsv'
+[1.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/share/pkg_py/package.sh'
+[1.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhangzhong/ROS2/kitti_ws/install/pkg_py/share/colcon-core/packages/pkg_py)
+[1.216s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'pkg_py' finished with '0'
+[1.216s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[1.217s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[1.217s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.217s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhangzhong/ROS2/kitti_ws/install/local_setup.sh'
+[1.218s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zhangzhong/ROS2/kitti_ws/install/_local_setup_util_sh.py'
+[1.219s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhangzhong/ROS2/kitti_ws/install/setup.sh'
